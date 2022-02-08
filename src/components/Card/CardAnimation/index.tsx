@@ -2,11 +2,10 @@ import React, { useEffect } from 'react';
 import { useWindowDimensions, ViewProps } from 'react-native';
 import {
   useAnimatedStyle,
-  useSharedValue,
-  withTiming
+  useSharedValue
 } from 'react-native-reanimated';
-
 import { AnimationContainer } from './styles';
+
 
 interface CardAnimationProps extends ViewProps {
   children: React.ReactNode;
@@ -19,7 +18,10 @@ export function CardAnimation({ children, ...rest }: CardAnimationProps) {
 
   const animatedStyle = useAnimatedStyle(() => {
     return {
+      
+      
       // TODO - setup animated style
+
     }
   })
 
