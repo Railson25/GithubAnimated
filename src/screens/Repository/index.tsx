@@ -36,7 +36,7 @@ export function Repository() {
     <Background>
       <Container>
         <RepoInfo>
-          <OwnerAvatar source={{ uri: OwnerAvatar }} />
+          <OwnerAvatar source={{ uri: repository.owner.avatar_url }} />
 
           <TextGroup>
             <TitleAnimation>
